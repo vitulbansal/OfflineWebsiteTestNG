@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="72945" started-at="2018-04-15T05:23:57Z" finished-at="2018-04-15T05:25:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="72945" started-at="2018-04-15T05:23:57Z" finished-at="2018-04-15T05:25:10Z">
+      <class name="com.jbk.Login_DP_Excel">
+        <test-method status="PASS" signature="Open_App()[pri:0, instance:com.jbk.Login_DP_Excel@320068]" name="Open_App" is-config="true" duration-ms="10512" started-at="2018-04-15T05:23:57Z" finished-at="2018-04-15T05:24:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_App -->
+        <test-method status="PASS" signature="VerifyInvalidLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jbk.Login_DP_Excel@320068]" name="VerifyInvalidLogin" duration-ms="576" started-at="2018-04-15T05:24:08Z" data-provider="Login" finished-at="2018-04-15T05:24:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify the error message when user try to login by putting blank Email & Password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Please enter email.Please enter password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidLogin -->
+        <test-method status="PASS" signature="Close_App()[pri:0, instance:com.jbk.Login_DP_Excel@320068]" name="Close_App" is-config="true" duration-ms="25" started-at="2018-04-15T05:24:08Z" finished-at="2018-04-15T05:24:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_App -->
+        <test-method status="PASS" signature="Open_App()[pri:0, instance:com.jbk.Login_DP_Excel@320068]" name="Open_App" is-config="true" duration-ms="10896" started-at="2018-04-15T05:24:08Z" finished-at="2018-04-15T05:24:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_App -->
+        <test-method status="PASS" signature="VerifyInvalidLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jbk.Login_DP_Excel@320068]" name="VerifyInvalidLogin" duration-ms="1298" started-at="2018-04-15T05:24:19Z" data-provider="Login" finished-at="2018-04-15T05:24:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify by entering Invalid Email]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vitul]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Please enter valid email.Please enter password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidLogin -->
+        <test-method status="PASS" signature="Close_App()[pri:0, instance:com.jbk.Login_DP_Excel@320068]" name="Close_App" is-config="true" duration-ms="25" started-at="2018-04-15T05:24:21Z" finished-at="2018-04-15T05:24:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_App -->
+        <test-method status="PASS" signature="Open_App()[pri:0, instance:com.jbk.Login_DP_Excel@320068]" name="Open_App" is-config="true" duration-ms="11449" started-at="2018-04-15T05:24:21Z" finished-at="2018-04-15T05:24:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_App -->
+        <test-method status="PASS" signature="VerifyInvalidLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jbk.Login_DP_Excel@320068]" name="VerifyInvalidLogin" duration-ms="1451" started-at="2018-04-15T05:24:32Z" data-provider="Login" finished-at="2018-04-15T05:24:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify by entering Email ID other kiran@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vitul@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Please enter email as kiran@gmail.comPlease enter password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidLogin -->
+        <test-method status="PASS" signature="Close_App()[pri:0, instance:com.jbk.Login_DP_Excel@320068]" name="Close_App" is-config="true" duration-ms="36" started-at="2018-04-15T05:24:33Z" finished-at="2018-04-15T05:24:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_App -->
+        <test-method status="PASS" signature="Open_App()[pri:0, instance:com.jbk.Login_DP_Excel@320068]" name="Open_App" is-config="true" duration-ms="10067" started-at="2018-04-15T05:24:33Z" finished-at="2018-04-15T05:24:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_App -->
+        <test-method status="PASS" signature="VerifyInvalidLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jbk.Login_DP_Excel@320068]" name="VerifyInvalidLogin" duration-ms="1336" started-at="2018-04-15T05:24:44Z" data-provider="Login" finished-at="2018-04-15T05:24:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify by entering Email ID other kiran@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kiran@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Please enter password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidLogin -->
+        <test-method status="PASS" signature="Close_App()[pri:0, instance:com.jbk.Login_DP_Excel@320068]" name="Close_App" is-config="true" duration-ms="24" started-at="2018-04-15T05:24:45Z" finished-at="2018-04-15T05:24:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_App -->
+        <test-method status="PASS" signature="Open_App()[pri:0, instance:com.jbk.Login_DP_Excel@320068]" name="Open_App" is-config="true" duration-ms="10400" started-at="2018-04-15T05:24:45Z" finished-at="2018-04-15T05:24:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_App -->
+        <test-method status="PASS" signature="VerifyInvalidLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jbk.Login_DP_Excel@320068]" name="VerifyInvalidLogin" duration-ms="2124" started-at="2018-04-15T05:24:55Z" data-provider="Login" finished-at="2018-04-15T05:24:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC005]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify by entering password other 123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kiran@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Please enter password 123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidLogin -->
+        <test-method status="PASS" signature="Close_App()[pri:0, instance:com.jbk.Login_DP_Excel@320068]" name="Close_App" is-config="true" duration-ms="28" started-at="2018-04-15T05:24:57Z" finished-at="2018-04-15T05:24:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_App -->
+        <test-method status="PASS" signature="Open_App()[pri:0, instance:com.jbk.Login_DP_Excel@320068]" name="Open_App" is-config="true" duration-ms="9929" started-at="2018-04-15T05:24:57Z" finished-at="2018-04-15T05:25:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_App -->
+        <test-method status="PASS" signature="VerifyInvalidLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.jbk.Login_DP_Excel@320068]" name="VerifyInvalidLogin" duration-ms="2525" started-at="2018-04-15T05:25:07Z" data-provider="Login" finished-at="2018-04-15T05:25:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC006]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[To verify by entering the correct Email & Password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kiran@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[AdminLTE 2 | Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidLogin -->
+        <test-method status="PASS" signature="Close_App()[pri:0, instance:com.jbk.Login_DP_Excel@320068]" name="Close_App" is-config="true" duration-ms="30" started-at="2018-04-15T05:25:10Z" finished-at="2018-04-15T05:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_App -->
+      </class> <!-- com.jbk.Login_DP_Excel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
